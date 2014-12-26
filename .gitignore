@@ -14,7 +14,7 @@ Icon
 .Trashes
 
 # so that I don't get sued
-*.ttf
+#*.ttf
 *.otf
 *.ttc
 

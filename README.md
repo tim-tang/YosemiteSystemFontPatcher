@@ -130,30 +130,7 @@ Mac OS X will use these fonts instead of the system fonts.
 
 Example
 -------
-
-To make __Avenir Next__ your system font, copy __Avenir Next.ttc__ from __/System/Library/Fonts__ into the repository root, and then use this script:
-
-```bash
-#!/bin/bash -e
-bin/patch 'System Font Regular'            'Avenir Next.ttc(Avenir Next Medium)'
-bin/patch 'System Font Bold'               'Avenir Next.ttc(Avenir Next Bold)'
-bin/patch 'System Font Italic'             'Avenir Next.ttc(Avenir Next Medium Italic)'
-bin/patch 'System Font Bold Italic'        'Avenir Next.ttc(Avenir Next Bold Italic)'
-bin/patch 'System Font Medium P4'          'Avenir Next.ttc(Avenir Next Demi Bold)'
-bin/patch 'System Font Medium Italic P4'   'Avenir Next.ttc(Avenir Next Demi Bold Italic)'
-```
-
-It generates:
-
-- System Avenir Next Bold Italic.ttf
-- System Avenir Next Bold.ttf
-- System Avenir Next Demi Bold Italic.ttf
-- System Avenir Next Demi Bold.ttf
-- System Avenir Next Medium Italic.ttf
-- System Avenir Next Medium.ttf
-
-
-Now you can copy these files into `~/Library/Fonts`, log out, and log back in. You should see the font changed!
+[Yosemite System Font Patch](http://timtang.me/blog/2014/12/26/Yosemite-system-font-patch/)
 
 Thanks
 ------
